@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-    new Vue({
+   vue = new Vue({
         el: '#app',
         data: {
           message: 'Hello! ',
@@ -7,4 +7,4 @@ window.addEventListener("load", () => {
           isLoggedIn:true
         }
       })
-} )
+} ) 
